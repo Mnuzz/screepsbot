@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Screeps", "Screeps", "{91898E08-8B2E-4CF9-85D0-566C1873D723}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GameLib", "GameLib", "{ADB47D33-A22A-4C5B-9222-03ADE2209E95}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\ConstructionSite.js = Scripts\ConstructionSite.js
+		Scripts\Creep.js = Scripts\Creep.js
+		Scripts\Flag.js = Scripts\Flag.js
+		Scripts\Game.js = Scripts\Game.js
+		Scripts\Memory.js = Scripts\Memory.js
+		Scripts\Mineral.js = Scripts\Mineral.js
+		Scripts\Nuke.js = Scripts\Nuke.js
+		Scripts\OwnedStructure.js = Scripts\OwnedStructure.js
+		Scripts\package.json = Scripts\package.json
+		Scripts\PathFinder.js = Scripts\PathFinder.js
+		Scripts\RawMemory.js = Scripts\RawMemory.js
+		Scripts\Readme.md = Scripts\Readme.md
+		Scripts\Resource.js = Scripts\Resource.js
+		Scripts\Room.js = Scripts\Room.js
+		Scripts\RoomObject.js = Scripts\RoomObject.js
+		Scripts\RoomPosition.js = Scripts\RoomPosition.js
+		Scripts\Source.js = Scripts\Source.js
+		Scripts\Structure.js = Scripts\Structure.js
+		Scripts\test.js = Scripts\test.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Config", "Config", "{C867871A-236D-44FE-9C6D-A301D401F8F7}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\Config\SublimeCodeIntel.json = Scripts\Config\SublimeCodeIntel.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Global", "Global", "{72821A4C-7299-485D-AFB2-042A3687476E}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\Global\Constants.js = Scripts\Global\Constants.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structures", "Structures", "{5BFEE83D-78EB-49E4-A1A6-5BFDB46E9B75}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\Structures\StructureContainer.js = Scripts\Structures\StructureContainer.js
+		Scripts\Structures\StructureController.js = Scripts\Structures\StructureController.js
+		Scripts\Structures\StructureExtension.js = Scripts\Structures\StructureExtension.js
+		Scripts\Structures\StructureExtractor.js = Scripts\Structures\StructureExtractor.js
+		Scripts\Structures\StructureKeeperLair.js = Scripts\Structures\StructureKeeperLair.js
+		Scripts\Structures\StructureLab.js = Scripts\Structures\StructureLab.js
+		Scripts\Structures\StructureLink.js = Scripts\Structures\StructureLink.js
+		Scripts\Structures\StructureNuker.js = Scripts\Structures\StructureNuker.js
+		Scripts\Structures\StructureObserver.js = Scripts\Structures\StructureObserver.js
+		Scripts\Structures\StructurePortal.js = Scripts\Structures\StructurePortal.js
+		Scripts\Structures\StructurePowerBank.js = Scripts\Structures\StructurePowerBank.js
+		Scripts\Structures\StructurePowerSpawn.js = Scripts\Structures\StructurePowerSpawn.js
+		Scripts\Structures\StructureRampart.js = Scripts\Structures\StructureRampart.js
+		Scripts\Structures\StructureRoad.js = Scripts\Structures\StructureRoad.js
+		Scripts\Structures\StructureSpawn.js = Scripts\Structures\StructureSpawn.js
+		Scripts\Structures\StructureStorage.js = Scripts\Structures\StructureStorage.js
+		Scripts\Structures\StructureTerminal.js = Scripts\Structures\StructureTerminal.js
+		Scripts\Structures\StructureTower.js = Scripts\Structures\StructureTower.js
+		Scripts\Structures\StructureWall.js = Scripts\Structures\StructureWall.js
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ADB47D33-A22A-4C5B-9222-03ADE2209E95} = {91898E08-8B2E-4CF9-85D0-566C1873D723}
+		{C867871A-236D-44FE-9C6D-A301D401F8F7} = {ADB47D33-A22A-4C5B-9222-03ADE2209E95}
+		{72821A4C-7299-485D-AFB2-042A3687476E} = {ADB47D33-A22A-4C5B-9222-03ADE2209E95}
+		{5BFEE83D-78EB-49E4-A1A6-5BFDB46E9B75} = {ADB47D33-A22A-4C5B-9222-03ADE2209E95}
+	EndGlobalSection
+EndGlobal
