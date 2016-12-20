@@ -1,5 +1,5 @@
 if (typeof define === "undefined")
-    require('define');
+    require('core.define');
 
 var result = define('core.preload', [], function () {
     /*
@@ -11,6 +11,7 @@ var result = define('core.preload', [], function () {
     */
     var Base = function () {
         // dummy
+        var a = 1;
     };
 
     Base.extend = function (_instance, _static) { // subclass

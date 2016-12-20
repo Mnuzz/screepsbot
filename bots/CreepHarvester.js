@@ -1,7 +1,7 @@
 if (typeof define === "undefined")
-    require('define');
+    require('core.define');
 
-module.exports = define('CreepHarvester', ['core', 'CreepBase'], function (core, CreepBase) {
+module.exports = define('bots.CreepHarvester', ['core', 'bots.CreepBase'], function (core, CreepBase) {
     var CreepHarvester = CreepBase.extend({
         constructor: function () {
             console.log('CreepHarvester.constructor');

@@ -1,3 +1,2 @@
 *Commit code locally via bat script
-
-Auto send code on save
+*Auto send code on save

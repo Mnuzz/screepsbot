@@ -1,5 +1,5 @@
 if (typeof define === "undefined")
-    require('define');
+    require('core.define');
 
 var result = define('core', ['core.preload'], function (preload) {
     var core = {};
@@ -10,4 +10,5 @@ var result = define('core', ['core.preload'], function (preload) {
 });
 
 module.exports = result;
+
 

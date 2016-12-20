@@ -1,0 +1,7 @@
+{
+    "name": "nuzz-screeps",
+    "private": true,
+    "scripts": {
+        "start": "supervisor -n exit _build\\_build.js"
+    }
+}
